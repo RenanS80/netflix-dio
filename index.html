@@ -4,11 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
 
     <title>Netflix Clone</title> 
 </head>
 <body>
     
+    <header id="menu">
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+
+            <nav id="navbar">
+                <a class="nav-item nav-item-button" href="#main">Início</a>
+                <a class="nav-item nav-item-button" href="#series">Séries</a>
+                <a class="nav-item nav-item-button" href="#movies">Filmes</a>
+                <a class="nav-item nav-item-button" href="#documentaries">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main id="main">
+        <div class="main-movie">
+            <div class="container">
+                <h1 class="main-title">Dois Homens e Meio</h1>
+                <div class="featured-info">
+                    <p class="points"">74%</p>
+                    <p>2003</p>
+                    <p>12 temporadas</p>
+                </div>
+                <p class="main-description">A vida mulherenga do solteirão Charlie é afetada quando seu irmão divorciado e seu sobrinho de língua afiada vão morar com ele.</p>
+                
+                <div class="main-group-button">
+                    <a href="https://www.youtube.com/watch?v=0cIdYmO9Yr0" class="watch-button" role="button" target="_blank">
+                        <i class="fa-solid fa-play"></i>
+                        Assistir
+                    </a>
+                    <a href="#" class="more-info-button" role="button">
+                        <i class="fa-solid fa-plus"></i>
+                        Informações
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <section id="series" class="carousel">
+        <div class="container">
+            <h2>Séries</h2>
+        </div>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/img/serie1.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie2.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie3.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie4.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie5.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie6.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie7.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie8.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie9.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/serie10.jpg" class="movie-box"></div>
+        </div>
+    </section>
+
+
+    <section id="movies" class="carousel">
+        <div class="container">
+            <h2>Filmes</h2>
+        </div>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/img/filme1.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme2.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme3.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme4.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme5.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme6.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme7.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme8.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme9.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/filme10.jpg" class="movie-box"></div>
+        </div>
+    </section>
+
+
+    <section id="documentaries" class="carousel">
+        <div class="container">
+            <h2>Documentários</h2>
+        </div>
+        
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="assets/img/documentario1.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario2.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario3.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario4.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario5.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario6.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario7.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario8.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario9.jpg" class="movie-box"></div>
+            <div class="item"><img src="assets/img/documentario10.jpg" class="movie-box"></div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-text">
+            <p>Desenvolvido por Renan Soares</p>
+        </div>
+
+        <div class="footer-icons">
+            <a href="https://github.com/RenanS80" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/renansoaresf/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+        </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="https://kit.fontawesome.com/cef61a1145.js" crossorigin="anonymous"></script>
+    <script src="assets/js/owl/jquery.min.js"></script>
+    <script src="assets/js/owl/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
